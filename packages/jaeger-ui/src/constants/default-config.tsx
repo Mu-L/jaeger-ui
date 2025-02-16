@@ -77,6 +77,7 @@ const defaultConfig: Config = {
     },
     maxLimit: 1500,
   },
+  traceIdDisplayLength: 7,
   storageCapabilities: {
     archiveStorage: false,
   },
@@ -118,6 +119,7 @@ const defaultConfig: Config = {
   qualityMetrics: {
     menuEnabled: false,
     menuLabel: 'Trace Quality',
+    apiEndpoint: '/api/quality-metrics',
   },
 };
 
